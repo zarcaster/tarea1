@@ -1,0 +1,132 @@
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16%;
+    margin-left: 16%;
+    background-color: white;
+    height: 640px;
+    width: 320px;
+    
+}
+
+#caja1 {   
+    align-items: center; 
+    margin-bottom: -8%;
+    z-index: 3;    
+    border-radius: 32px;
+    border-style: solid;
+    width: 64px;
+    height: 64px;
+    background-color: gainsboro;
+}
+
+#caja11 {    
+    float: left;    
+    margin-top: 16%;
+    margin-left: 8%;
+    border-radius: 32px;
+    border-style: solid;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
+
+#caja12 {  
+    float: right;
+    margin-top: 16%;
+    margin-right: 8%;
+    border-radius: 32px;
+    border-style: solid;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
+
+#caja13 {
+    margin-top: 64%;
+    margin-left: 35%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 64px solid orangered;   
+}
+
+#caja2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -16%;
+    z-index: 2;    
+    border-radius: 64px;
+    border-style: solid;
+    width: 128px;
+    height: 128px;
+    background-color: gainsboro;
+}
+
+#caja21 {    
+    float: left;    
+    margin-top: 16%;
+    margin-left: 8%;    
+    border-radius: 32px;
+    border-style: solid;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
+
+#caja22 {    
+    float: left;    
+    margin-top: 16%;
+    margin-left: 8%;
+    border-radius: 32px;
+    border-style: solid;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
+
+#caja23 {    
+    float: left;    
+    margin-top: 16%;
+    margin-left: 8%;
+    border-radius: 32px;
+    border-style: solid;
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
+
+#caja3 {    
+    z-index: 1;    
+    border-radius: 128px;
+    border-style: solid;
+    width: 256px;
+    height: 256px;
+    background-color: gainsboro;
+}
+
+#brazoI {
+    z-index: 1;
+    margin-left: 64%;    
+    width: 256px;
+    height: 5px;
+    background-color: brown;
+    border-radius: 8px;
+    transform-origin: 125% 50%;
+    transform: rotate(-25deg);
+}
+
+#brazoD {
+    z-index: 1;
+    margin-right: 64%;    
+    width: 256px;
+    height: 5px;
+    background-color: brown;
+    border-radius: 8px;
+    transform-origin: 25% 50%;
+    transform: rotate(25deg);
+}
